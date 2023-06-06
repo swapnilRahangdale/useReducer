@@ -47,8 +47,8 @@ function App() {
   }
 
   return <div>
-        <AddValue/>
-       {/* <p>Counter = {state.counter}</p>
+        {/* <AddValue/> */}
+       <p>Counter = {state.counter}</p>
        <br/><br/>
        <p>Status = {state.status}</p>
 
@@ -56,7 +56,7 @@ function App() {
 
    <br /> 
 
-    <button type="button" onClick={decrementValue}>decrement</button> */}
+    <button type="button" onClick={decrementValue}>decrement</button>
 
   </div>;
 }
