@@ -1,0 +1,24 @@
+
+.wrapper{
+    height: 500px;
+    width: 400px;
+    border: 1px solid gray;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    margin-bottom: 11px;
+    height: 60px;
+    justify-content: space-between;
+
+    input{
+        height: 30px;
+        border-radius: 3%;
+
+    }
+}
